@@ -1,0 +1,22 @@
+{
+  "model_type": "tfidf_logistic_regression",
+  "max_features": 1000,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "vocabulary_size": 1000,
+  "training_samples": 1600,
+  "test_samples": 400,
+  "train_accuracy": 0.955,
+  "test_accuracy": 0.925,
+  "input_shape": [
+    1,
+    1000
+  ],
+  "output_classes": 2,
+  "class_names": [
+    "legitimate",
+    "phishing"
+  ]
+}
