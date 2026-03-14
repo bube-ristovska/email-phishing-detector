@@ -65,4 +65,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     implementation("org.tensorflow:tensorflow-lite:2.17.0")
     implementation("com.google.code.gson:gson:2.13.2")
+    implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.animation:animation")
+    implementation("androidx.compose.foundation:foundation")
 }
